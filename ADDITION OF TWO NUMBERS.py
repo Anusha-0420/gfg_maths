@@ -24,7 +24,3 @@ Explanation:
   b) An instance of the Solution class is created.
   c) The addition method is called with the input integers A and B.
   d) The result (the sum of A and B) is printed for each test case.
-However, there are a few things to note:
-
-The code assumes that the input format is as described (number of test cases followed by pairs of integers).
-It does not handle invalid inputs or edge cases (e.g., non-integer inputs).
