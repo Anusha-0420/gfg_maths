@@ -1,6 +1,5 @@
 Swap given two numbers and print them (Try to do it without a temporary variable.) and return it.
-  code:
-
+Code:
 class Solution:
     def get(self, a, b):
         #code here
@@ -22,7 +21,3 @@ Explanation:
   b) An instance of the Solution class is created.
   c) The get method is called with the input integers a and b.
   d) The result (the swapped values) is printed for each test case.
-However, there are a few things to note:
-
-The code assumes that the input format is as described (number of test cases followed by pairs of integers).
-It does not handle invalid inputs or edge cases.
