@@ -1,6 +1,5 @@
 Given a number, reverse it and add it to itself unless it becomes a palindrome or number of iterations becomes more than 5.
-code: 
-
+Code: 
 class Solution:
     def reverse(self,n):
         rev=0
@@ -43,7 +42,3 @@ Explanation:
   b) An instance of the Solution class is created.
   c) The isSumPalindrome method is called with the input integer n.
   d) The result (either a palindrome or -1) is printed for each test case.
-However, there are a few things to note:
-
-The code assumes that the input format is as described (number of test cases followed by the integer values).
-It does not handle invalid inputs or edge cases.
