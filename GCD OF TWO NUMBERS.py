@@ -1,5 +1,5 @@
 Given two positive integers a and b, find GCD of a and b. write a python code without using inbuilt GCD function
-  code: 
+Code: 
 class Solution:
     def gcd(self, a : int, b : int) -> int:
         # code here
@@ -35,7 +35,3 @@ explanation:
   b) An instance of the Solution class is created.
   c) The gcd method is called with the input integers a and b.
   d) The GCD result is printed for each test case.
-However, there are a few things to note:
-
-The code assumes that the input format is as described (number of test cases followed by pairs of integers).
-It does not handle invalid inputs or edge cases (e.g., negative numbers).
