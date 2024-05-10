@@ -1,6 +1,5 @@
 Given an integer N, find the number of divisors of N that are divisible by 3.
-  Code:
-
+Code:
 class Solution:
     def count_divisors(self, N):
         c=0
@@ -39,7 +38,3 @@ Explanation:
   b) An instance of the Solution class is created.
   c) The count_divisors method is called with the input integer N.
   d) The result (the count of divisors) is printed for each test case.
-However, there are a few things to note:
-
-The code assumes that the input format is as described (number of test cases followed by the integer values).
-It does not handle invalid inputs or edge cases.
