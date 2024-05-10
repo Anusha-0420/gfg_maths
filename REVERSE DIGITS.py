@@ -1,6 +1,5 @@
 You are given an integer N, reverse the digits of given number N, ensuring that the reversed number has no leading zeroes. Return the resulting reversed number.
 Code: 
-
 class Solution:
 	def reverse_digit(self, n):
 	    
@@ -29,7 +28,3 @@ a) For each test case, it reads an integer n.
 b) An instance of the Solution class is created.
 c) The reverse_digit method is called with the input integer n.
 d) The reversed integer is printed for each test case.
-However, there are a few things to note:
-
-The code assumes that the input format is as described (number of test cases followed by the integer values).
-It does not handle invalid inputs or edge cases (e.g., negative numbers).
