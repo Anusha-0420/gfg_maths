@@ -1,6 +1,5 @@
 Given 3 numbers A, B and C. Find the greatest number among them.
-  code:
-
+Code:
 class Solution:
     def greatestOfThree(self,A,B,C):
         #code here
@@ -22,7 +21,3 @@ Explanation:
   b) An instance of the Solution class is created.
   c) The greatestOfThree method is called with the input integers A, B, and C.
   d) The maximum value is printed for each test case.
-However, there are a few things to note:
-
-The code assumes that the input format is as described (number of test cases followed by the integer values).
-It does not handle invalid inputs or edge cases.
