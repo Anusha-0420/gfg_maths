@@ -34,8 +34,3 @@ Explaination :
 11. For each test case, it reads an integer n.
 12. An instance of the Solution class is created, and the armstrongNumber method is called with the input integer n.
 13. The result (either “Yes” or “No”) is printed for each test case.
-However, there are a few things to note:
-
-The code assumes that the input format is as described (number of test cases followed by the integer values).
-It does not handle invalid inputs or edge cases (e.g., negative numbers).
-
