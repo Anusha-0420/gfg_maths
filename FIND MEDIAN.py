@@ -1,6 +1,5 @@
 Given an array arr[] of N integers, calculate the median.
 Code:
-
 class Solution:
 	def find_median(self, v):
 		v.sort()
@@ -31,8 +30,3 @@ Explanation:
 8. An instance of the Solution class (which is not defined in the provided snippet) is created.
 9. The find_median function is called with the input list v, and the result is stored in ans.
 10. Finally, the median value for each test case is printed.
-  However, there are a few things to note:
-
-  The Solution class is not defined here, so we don’t know its implementation.
-  The code assumes that the input format is as described (number of test cases followed by the list size and elements).
-  The code does not handle invalid inputs or edge cases (e.g., an empty list).
