@@ -1,6 +1,5 @@
 Write a program to calculate nPr. nPr represents n permutation r and value of nPr is (n!) / (n-r)!.
-  code: 
-
+Code: 
 class Solution:
     def factorial(self,a):
         if a==0 or a==1:
@@ -32,9 +31,3 @@ Explanation:
   b) An instance of the Solution class is created.
   c) The nPr method is called with the input integers n and r.
   d) The result (the value of nPr) is printed for each test case.
-
-However, there are a few things to note:
-
-The code assumes that the input format is as described (number of test cases followed by pairs of integers).
-It does not handle invalid inputs or edge cases (e.g., negative values for n or r).
-
