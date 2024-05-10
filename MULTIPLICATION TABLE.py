@@ -1,5 +1,5 @@
 Create the multiplication table of a given number N and return the table as an array.
-  code:
+Code:
 class Solution:
     def getTable(self,N):
         # code here
@@ -31,7 +31,3 @@ Explanation:
   b) An instance of the Solution class is created.
   c) The getTable method is called with the input integer N.
   d) The resulting list of products is printed, with each value separated by a space.
-However, there are a few things to note:
-
-The code assumes that the input format is as described (number of test cases followed by the integer values).
-It does not handle invalid inputs or edge cases.
