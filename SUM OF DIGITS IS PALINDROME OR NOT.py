@@ -1,5 +1,5 @@
 Given a number n.Find if the digit sum(or sum of digits) of n is a Palindrome number or not.
-  code: 
+Code: 
 class Solution:
     def isDigitSumPalindrome(self, n):
         #code here
@@ -36,8 +36,3 @@ if __name__=='__main__':
   b) An instance of the Solution class is created.
   c) The isDigitSumPalindrome method is called with the input integer N.
   d) The result (either 1 or 0) is printed for each test case.
-However, there are a few things to note:
-
-The code assumes that the input format is as described (number of test cases followed by the integer values).
-It does not handle invalid inputs or edge cases (e.g., negative numbers).
-
