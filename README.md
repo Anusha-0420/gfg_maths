@@ -5,7 +5,6 @@ class Solution:
     def seriesSum(self, n : int) -> int:
         add = n*(n+1)//2
         return add
-# } Driver Code Starts
 if __name__ == '__main__':
     t = int(input())
     for _ in range(t):
@@ -16,8 +15,7 @@ if __name__ == '__main__':
         res = obj.seriesSum(n)
 
         print(res)
-
-# } Driver Code Ends
+        
 Explanation:
 1. We have to find the sum of series of N terms.
 2. For that we define a class Solution in which we define a function seriesSum.
