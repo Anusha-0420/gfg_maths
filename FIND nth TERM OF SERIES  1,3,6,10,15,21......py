@@ -1,6 +1,5 @@
 Given a number N, find the Nth term in the series 1, 3, 6, 10, 15, 21…
-  Code: 
-
+Code: 
 class Solution:
     def findNthTerm(self, N):
         # code here
@@ -26,9 +25,3 @@ Explanation:
   b) An instance of the Solution class is created.
   c) The findNthTerm method is called with the input integer N.
   d) The result (the N-th term) is printed for each test case.
-
-However, there are a few things to note:
-
-The code assumes that the input format is as described (number of test cases followed by the integer values).
-It does not handle invalid inputs or edge cases.
-
