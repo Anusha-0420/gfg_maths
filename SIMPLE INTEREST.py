@@ -1,6 +1,5 @@
 Given three integers P,R and T, denoting Principal, Rate of Interest and Time period respectively.Compute the simple Interest.
-  Code:
-
+Code:
 class Solution:
     def simpleInterest(self,A,B,C):
         #code here
@@ -22,9 +21,3 @@ Explanation:
   b) An instance of the Solution class is created.
   c) The simpleInterest method is called with the input values.
   d) The result (simple interest) is printed with 2 decimal places.
-
-Note:
-
-The code assumes that the input format is as described (number of test cases followed by the integer values).
-It does not handle invalid inputs or edge cases.
-
