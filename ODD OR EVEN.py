@@ -1,6 +1,5 @@
 Given a positive integer N, determine whether it is odd or even.
-  code:
-
+Code:
 class Solution:
     def oddEven (ob,N):
         # code here 
@@ -29,7 +28,3 @@ Explanation:
   b) An instance of the Solution class is created.
   c) The oddEven method is called with the input integer N.
   d) The result (either “even” or “odd”) is printed for each test case.
-However, there are a few things to note:
-
-The code assumes that the input format is as described (number of test cases followed by the integer values).
-It does not handle invalid inputs or edge cases (e.g., negative numbers).
