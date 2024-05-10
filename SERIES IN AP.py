@@ -1,6 +1,5 @@
 Given the first 2 terms a1 and a2 of an Arithmetic Series.Find the nth term of the series. 
-  
-code:
+Code:
 class Solution:
     def nthTermOfAP(self, a1 : int, a2 : int, n : int) -> int:
         # code here
@@ -8,22 +7,14 @@ class Solution:
         n_term = a1+(n-1)*d
         return n_term
         
-
 if __name__=="__main__":
     t = int(input())
-    for _ in range(t):
-        
+    for _ in range(t):     
         a1 = int(input())
-        
-        
         a2 = int(input())
-        
-        
         n = int(input())
-        
         obj = Solution()
-        res = obj.nthTermOfAP(a1, a2, n)
-        
+        res = obj.nthTermOfAP(a1, a2, n)        
         print(res)
 Explanation:
 1. The Solution class is defined, which presumably contains methods for solving specific problems.
@@ -36,7 +27,3 @@ Explanation:
   b) An instance of the Solution class is created.
   c) The nthTermOfAP method is called with the input integers a1, a2, and n.
   d) The result (the n-th term of the AP) is printed for each test case.
-However, there are a few things to note:
-
-The code assumes that the input format is as described (number of test cases followed by the integer values).
-It does not handle invalid inputs or edge cases (e.g., negative values for n).
