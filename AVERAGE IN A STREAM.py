@@ -1,6 +1,5 @@
 Given a stream of incoming numbers, find average or mean of the stream at every point.
-  code:
-
+Code:
 class Solution:
 	def streamAvg(self, arr, n):
 		add=0
@@ -37,8 +36,3 @@ Explanation:
   c) An instance of the Solution class is created.
   d) The streamAvg method is called with the input list arr and integer n.
   e) The resulting list of average values is printed, with each value formatted to two decimal places.
-However, there are a few things to note:
-
-The code assumes that the input format is as described (number of test cases followed by the integer values and the list of integers).
-It does not handle invalid inputs or edge cases.
-
